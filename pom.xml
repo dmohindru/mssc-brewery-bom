@@ -8,13 +8,40 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.5.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>guru.springframework</groupId>
+    <groupId>dev.dmohindru</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
+
+    <organization>
+        <name>dmohindru developers</name>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU General Public Licence v3.0</name>
+            <url>https://www.gnu.org/licenses/glp.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Dhruv Mohindru</name>
+            <organization>dmohindru developers</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+    </properties>
 
 </project>
